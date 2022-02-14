@@ -1,9 +1,12 @@
-import { BrowserRouter, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { LandPage } from "../Pages/LandPage/index";
+
 export const Router = () => {
   return (
-    <BrowserRouter>
-      <Route path="/" />
-    </BrowserRouter>
+    <Switch>
+      <Route path="/">
+        <LandPage />
+      </Route>
+    </Switch>
   );
 };
