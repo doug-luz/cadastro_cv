@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+### Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application for the user to be able to insert personal and professional
+data related to the dev career, being a practical and usefull tool, i hope,
+for recruiters to have a first contact and preliminary notions about the applicant's qualifications.
 
-## Available Scripts
+### Descrição
 
-In the project directory, you can run:
+Aplicação para usuário poder inserir dados pessoais e profissionais
+relativos a carreira de desenvolvedor, sendo uma ferramenta prática
+para recrutadores terem um primeiro contato e noções sobre as qualificações do inscrito.
 
 ### `yarn start`
 
