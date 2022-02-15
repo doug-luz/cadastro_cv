@@ -6,6 +6,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <Router />
+      {/* <div>Bem Vindo</div> */}
     </>
   );
 };

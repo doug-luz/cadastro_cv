@@ -12,7 +12,7 @@ export const Theme = ({ children }: ThemeProps) => {
       <C.Display>
         <Header />
         <C.InsideContainer>
-          <C.SideContainer></C.SideContainer>
+          <C.SideContainer>Side</C.SideContainer>
           <C.PageContainer>{children}</C.PageContainer>
         </C.InsideContainer>
       </C.Display>
