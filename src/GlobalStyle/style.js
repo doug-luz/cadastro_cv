@@ -36,6 +36,12 @@ button{
     font-weight: 700;
     text-decoration:none;
     border-radius: 40px;
+    margin-right: 50px;
+
+    &:hover {
+        color: #000;
+        transform: translate(0, -5px)
+    }
 }
 `;
 export default GlobalStyle;
