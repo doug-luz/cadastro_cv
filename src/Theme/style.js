@@ -6,7 +6,7 @@ export const Container = styled.div`
   min-height: 100vh;
 `;
 export const Display = styled.div`
-  display: flex;
+  display: block;
   flex: 1;
 `;
 export const InsideContainer = styled.div`
@@ -14,8 +14,8 @@ export const InsideContainer = styled.div`
   flex: 1;
 `;
 export const SideContainer = styled.div`
-  width: 250px;
-  border-right: var(--darkgray);
+  width: 450px;
+  border-right: 0.5 solid var(--darkgray);
 `;
 export const PageContainer = styled.div`
   flex: 1;

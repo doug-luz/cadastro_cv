@@ -27,11 +27,15 @@ h1, h2, h3, h4{
     font-weight:bold;
 }
 button{
+    background: var(--neongreen);
     cursor:pointer;
+    color: var(--darkgray);
     border:none;
     font-style:normal;
-    font-size:16px;
+    font-size:20px;
+    font-weight: 700;
     text-decoration:none;
+    border-radius: 40px;
 }
 `;
 export default GlobalStyle;
