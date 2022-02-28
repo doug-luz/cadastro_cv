@@ -3,8 +3,9 @@ import { createContext, useContext, useReducer, ReactNode } from "react";
 interface State {
   page: number;
   name: string;
-  languages: string;
-  experience: 0 | 1;
+  languages: [];
+  experience: number;
+  linkedin: string;
   github: string;
   email: string;
 }
@@ -29,6 +30,7 @@ export enum SignpuActions {
   setName,
   setLanguages,
   setExperience,
+  setLinkedin,
   setGithub,
   setEmail,
 }
@@ -43,6 +45,8 @@ const SignupReducer = (state: State, action: ActionTypes) => {
       return { ...state, languages: action.payload };
     case SignpuActions.setExperience:
       return { ...state, experience: action.payload };
+    case SignpuActions.setLinkedin:
+      return { ...state, linkedin: action.payload };
     case SignpuActions.setGithub:
       return { ...state, github: action.payload };
     case SignpuActions.setEmail:
@@ -56,8 +60,9 @@ const SignupReducer = (state: State, action: ActionTypes) => {
 const defaultData: State = {
   page: 0,
   name: "",
-  languages: "",
+  languages: [],
   experience: 0,
+  linkedin: "",
   github: "",
   email: "",
 };
